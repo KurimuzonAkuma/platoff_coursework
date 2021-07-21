@@ -7,9 +7,15 @@
     Затем распаковать в любое удобное место и приступить к компиляции
 2. Клонирование репозитория (для умных)
     Открыть консоль и прописать следующие команды:
-    `$ git clone https://github.com/KurimuzonAkuma/platoff_coursework.git`
-    `$ cd platoff_coursework`
+    ```
+    git clone https://github.com/KurimuzonAkuma/platoff_coursework.git
+    ```
+    ```
+    cd platoff_coursework
+    ```
     Затем просто скомпилировать проект
 ### Компиляция проекта:
 Перейти в папку с проектом и написать в консоль:
-`$ gcc -o start_db main.c base.c base.h`
+```
+gcc -o start_db main.c base.c base.h
+```
